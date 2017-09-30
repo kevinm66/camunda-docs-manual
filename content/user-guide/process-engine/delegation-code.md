@@ -324,7 +324,7 @@ A task listener supports following attributes:
     * **delete**: occurs just before the task is deleted from the runtime data.
 
 
-* **class**: the delegation class that must be called. This class must implement the `org.camunda.bpm.engine.impl.pvm.delegate.TaskListener` interface.
+* **class**: the delegation class that must be called. This class must implement the `org.camunda.bpm.engine.delegate.TaskListener` interface.
 
     ```java
     public class MyTaskCreateListener implements TaskListener {
